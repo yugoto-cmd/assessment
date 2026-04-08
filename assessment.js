@@ -97,7 +97,7 @@ function assessment(userName) {
   return result;
 }
 
-console.assert(assessment('太郎') === '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。', '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。')
+console.assert(assessment('太郎') === '太郎のいいところはユニークさです。太郎だけのその特徴が皆を楽しくさせます。', '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。')
 
 console.assert(assessment('太郎') === assessment('太郎'), '同じ名前で診断をした場合に同じ結果になっていません。');
 console.assert(assessment('次郎') === assessment('次郎'), '同じ名前で診断をした場合に同じ結果になっていません。');
